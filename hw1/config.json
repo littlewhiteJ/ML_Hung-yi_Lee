@@ -1,0 +1,17 @@
+{
+    "name":"4",
+    "trainFile":"rawdata.json",
+    "validationFile":"validData.json",
+    "norDFile":"norD.json",
+
+    "epoch":"400",
+    "ifRandom":"0",
+    "trainNum":"5000",
+    "allNum":"5750",
+    "t":"9",
+    "maxPower":"4",
+    "lr":"0.001",
+    "alpha":"0",
+    "checkEpoch":"10000",
+    "checkNum":"200"
+}
