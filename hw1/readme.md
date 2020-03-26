@@ -18,4 +18,4 @@ python validation.py
 
 （现有的参数能使你的RMSE跑到6.x）
 
-[eng readme](https://github.com/littlewhiteJ/ML_Hung-yi_Lee/blob/master/hw1/engreadme.md)
+[eng readme](https://github.com/littlewhiteJ/ML_Hung-yi_Lee/blob/master/hw1/Engreadme.md)
