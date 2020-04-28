@@ -1,8 +1,8 @@
 {
     "name":"4",
-    "trainFile":"rawdata.json",
-    "validationFile":"validData.json",
-    "norDFile":"norD.json",
+    "trainFile":"data/rawdata.json",
+    "validationFile":"data/validData.json",
+    "norDFile":"data/norD.json",
 
     "epoch":"400",
     "ifRandom":"0",

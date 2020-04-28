@@ -33,7 +33,7 @@ with open(validationFile, 'r') as f:
 with open(modelName, 'r') as f:
     dModel = json.load(f)
 
-with open('norD.json', 'r') as f:
+with open(norDFile, 'r') as f:
     norD = json.load(f)
 
 d = normalizeV(d, norD)
@@ -41,7 +41,7 @@ d = normalizeV(d, norD)
 f4 = F4(lr, t, maxPower, alpha)
 f4.setParameter(np.array(dModel['w']), np.array(dModel['b']))
 
-with open('ans.txt', 'w') as f:
+with open('data/ans.txt', 'w') as f:
     f.write('id,value\n')
     for dataID in d:
         dd = d[dataID]

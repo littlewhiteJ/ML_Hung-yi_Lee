@@ -1,7 +1,7 @@
 # preprocess for train data
 import json
 
-with open('train.csv', 'r', encoding="utf8", errors='ignore') as f:
+with open('data/train.csv', 'r', encoding="utf8", errors='ignore') as f:
     lines = f.readlines()
 
 d = {}
@@ -21,8 +21,10 @@ for i in range(1, len(lines)):
 '''
 for tag in d:
     print(d[tag][:50])
-'''
+
 for tag in d:
     print(tag)
-with open('rawdata.json','w') as f:
+'''
+
+with open('data/rawdata.json','w') as f:
     json.dump(d, f)

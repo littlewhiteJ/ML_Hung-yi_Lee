@@ -1,7 +1,7 @@
 # validation data preprocess
 import json
 
-with open('test.csv', 'r', encoding="utf8", errors='ignore') as f:
+with open('data/test.csv', 'r', encoding="utf8", errors='ignore') as f:
     lines = f.readlines()
 
 d = {}
@@ -27,5 +27,5 @@ for i in range(0, len(lines)):
 for tag in d:
     print(d[tag][:50])
 '''
-with open('validData.json','w') as f:
+with open('data/validData.json','w') as f:
     json.dump(d, f)
